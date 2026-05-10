@@ -11,8 +11,8 @@ The system can support multiple native/learning languages currently supports Eng
 All audio files originally used in the project were recorded using my own voice and therefore are not included.
 Audio related features remain in the code but are disabled in this public version.
 ________________________________________
-📌 Features
-🧠 Memory Game
+ Features
+Memory game
 A classic matching pairs game:
 •	10 vocabulary pairs (20 tiles total)
 •	English ↔ target language
@@ -20,7 +20,7 @@ A classic matching pairs game:
 •	Tracks completion time
 •	Awards points for finishing
 •	Fully interactive grid built using Canvas
-⚡ Speed Game
+Speed Game
 A timed 60 second challenge:
 •	Randomised vocabulary grid
 •	A “question word” appears at the bottom
@@ -28,7 +28,7 @@ A timed 60 second challenge:
 •	Score increases for each correct match
 •	Timer starts on first click
 •	Designed to build rapid recall
-🎤 Practise Mode
+Practise Mode
 A free exploration mode for vocabulary:
 •	Displays a word in both languages
 •	Arrows allow cycling through the word list
@@ -37,14 +37,14 @@ o	Audio playback of the learning language word
 o	User recording for pronunciation practice
 •	These features are disabled in this version
 (sound files are not included for privacy reasons)
-🏆 Points & Progress
+Points & Progress
 The system tracks:
 •	Number of completed activities
 •	Points earned (20 points per completed activity)
 •	Intended to integrate with a larger platform (admin view, leaderboards, etc.)
 ________________________________________
 
-🔧 Technologies Used
+Technologies Used
 •	Python 3
 •	Tkinter (GUI)
 •	Canvas for custom drawing
@@ -53,7 +53,7 @@ ________________________________________
 •	(Optional) sounddevice, scipy, playsound 
 (disabled in this version)
 ________________________________________
-🚀 How to Run
+How to Run
 1.	Ensure Python 3 is installed
 2.	Run the main script (contained in code.txt)
 3.	Set username and password as “a” 
@@ -64,7 +64,7 @@ o	Speed
 o	Practise
 o	Exit
 
-🔇 About Missing Audio Features
+about Missing Audio Features
 Originally, the system included:
 •	Audio playback of vocabulary words
 •	User voice recording
@@ -75,7 +75,7 @@ These features relied on:
 Because the recordings contain my own voice, they are not included in this public version.
 All audio related code remains in place but is commented out or inactive.
 
-🎨 Design Documentation Included
+Design Documentation Included
 The repository design docs since this was created as a part of a full software development cycle using waterfall
 •	Requirements analysis
 •	Interview with client
@@ -85,7 +85,7 @@ The repository design docs since this was created as a part of a full software d
 •	Explanational document on design decisions
 This provides a full view of the system’s intended architecture and user experience.
 ________________________________________
-🛠️ Possible Future Improvements
+Possible Future Improvements
 •	Ui update
 •	Add image support for vocabulary
 •	Implement a database for storing progress
